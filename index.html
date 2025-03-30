@@ -44,20 +44,32 @@ body { display: flex; justify-content: center; align-items: center; min-height: 
 .smartphone .camera { width: 10px; height: 10px; position: absolute; top: -35px; left: 120px; background: #333; border-radius: 50%; }
 .smartphone .speaker { width: 60px; height: 5px; position: absolute; top: -30px; left: 160px; background: #333; border-radius: 10px; }
 .smartphone .content { display: flex; flex-direction: column; width: 100%; height: 100%; background-color: #f5f5f5; overflow: hidden; position: relative; }
-.statusbar { height: 25px; background-color: #333; color: white; display: flex; justify-content: space-between; align-items: center; padding: 0 15px; font-size: 12px; }
-.statusbar .time { font-weight: bold; }
-.statusbar .info { display: flex; align-items: center; }
-.statusbar .info span { margin-left: 8px; }
-.user-info {
-  order: 1;
-  background-color: #4a69bd;
+.statusbar {
+  height: 25px;
+  background-color: #333;
   color: white;
-  padding: 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Tetap gunakan untuk status bar */
   align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0 15px;
+  font-size: 12px;
 }
+
+.statusbar .time {
+  font-weight: bold;
+}
+
+.statusbar .info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Mengatur info ke ujung kanan */
+}
+
+.statusbar .info span {
+  margin-left: 8px;
+}
+
+.user-info { order: 1; background-color: #4a69bd; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
 .user-info .left { display: flex; flex-direction: column; }
 .user-info .name { font-size: 18px; font-weight: bold; }
 .user-info .stats { display: flex; margin-top: 5px; }
@@ -77,46 +89,14 @@ body { display: flex; justify-content: center; align-items: center; min-height: 
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 .back-button { position: absolute; top: 10px; left: 10px; background: rgba(0, 0, 0, 0.1); border: none; width: 40px; height: 40px; border-radius: 50%; display: flex; justify-content: center; align-items: center; color: #333; font-size: 18px; cursor: pointer; z-index: 100; transition: background 0.2s; }
 .back-button:hover { background: rgba(0, 0, 0, 0.2); }
-        .messages-list {
-            list-style: none;
-            padding: 15px;
-       
-.contact-item {
-            display: flex;
-            align-items: center;
-            padding: 15px;
-            border-bottom: 1px solid #eee;
-            transition: background 0.2s;
-            cursor: pointer;
-        }
-
-.contact-item:hover {
-            background-color: #f5f5f5;
-        }
-
-.contact-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            margin-right: 15px;
-            object-fit: cover;
-        }
-
-.contact-name {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
+.messages-list { list-style: none; padding: 15px; }
+.contact-item { display: flex; align-items: center; padding: 15px; border-bottom: 1px solid #eee; transition: background 0.2s; cursor: pointer; }
+.contact-item:hover { background-color: #f5f5f5; }
+.contact-avatar { width: 50px; height: 50px; border-radius: 50%; margin-right: 15px; object-fit: cover; }
+.contact-name { font-weight: bold; margin-bottom: 5px; }
 .contact-preview { color: #777; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .chat-container { display: none; flex-direction: column; height: 100%; }
-.chat-choices-container {
-    position: absolute;
-    bottom: 60px; /* Posisi di bawah chat input */
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 15px;
-    display: none; /* Awalnya disembunyikan */
-}
+.chat-choices-container { position: absolute; bottom: 60px;  left: 0; width: 100%; background-color: rgba(255, 255, 255, 0.9); padding: 15px; display: none; /* Awalnya disembunyikan */ }
 .chat-header { padding: 15px; background-color: #4a69bd; color: white; display: flex; align-items: center; }
 .chat-avatar { width: 40px; height: 40px; border-radius: 50%; margin-right: 15px; object-fit: cover; }
 .chat-messages { flex: 1; padding: 15px; overflow-y: auto; background-color: #f5f5f5; }
@@ -130,14 +110,25 @@ body { display: flex; justify-content: center; align-items: center; min-height: 
 .chat-input { display: flex; padding: 10px; background-color: white; border-top: 1px solid #eee; }
 .chat-input input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 20px; margin-right: 10px; }
 .chat-input button { background-color: #4a69bd; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; display: flex; justify-content: center; align-items: center; cursor: pointer; }
-.settings-screen, .work-screen, .notes-screen, .squegram-screen, .memory-screen, .gallery-screen { padding: 20px; }
-.screen-title { text-align: center; margin-bottom: 20px; color: #333; font-size: 24px; }
-.settings-option { display: flex; justify-content: space-between; align-items: center; padding: 15px; border-bottom: 1px solid #eee; }
-.settings-option .label { font-weight: bold; }
+.settings-screen, .work-screen, .notes-screen, .squegram-screen, .memory-screen, .gallery-screen { padding: 20px; background-color: #f5f5f5;  border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+.screen-title { text-align: center; margin-bottom: 20px; color: #333; font-size: 24px; font-weight: bold; }
+.settings-option { display: flex; justify-content: space-between; align-items: center; padding: 15px; border-bottom: 1px solid #eee; border-bottom: 1px solid }
+.settings-option .label { font-weight: bold; color: #4a69bd; }
 .settings-option .value { color: #777; }
-.toggle-switch { position: relative; display: inline-block; width: 50px; height: 24px; }
+.toggle-switch { position: relative; display: inline-block; width: 60px; height: 30px;  background-color: #ccc; border-radius: 30px; transition: background-color 0.3s ease; 
 .toggle-switch input { opacity: 0; width: 0; height: 0; }
-.toggle-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 34px; }
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff; /* Warna tombol toggle */
+  border-radius: 50%; /* Bentuk bulat */
+  transition: transform 0.3s ease; /* Transisi transformasi */
+  transform: translateX(0); /* Posisi awal */
+}
 .toggle-slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 4px; bottom: 4px; background-color: white; transition: .4s; border-radius: 50%; }
 input:checked + .toggle-slider { background-color: #4a69bd; }
 input:checked + .toggle-slider:before { transform: translateX(26px); }
@@ -179,34 +170,8 @@ input:checked + .toggle-slider:before { transform: translateX(26px); }
 .dialog-name { font-weight: bold; margin-bottom: 5px; color: #3498db; }
 .dialog-text { margin-bottom: 10px; line-height: 1.4; }
 .dialog-next { text-align: right; font-style: italic; color: #ddd; }
-
-.notification-container {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 400px;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.notification {
-    background-color: #fff;
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
-
+.notification-container { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); width: 100%;max-width: 400px; z-index: 1000; display: flex; justify-content: center; flex-direction: column; align-items: center; }
+.notification { background-color: #fff; color: #333; padding: 10px 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); width: 100%; max-width: 400px; margin-bottom: 10px; cursor: pointer; transition: transform 0.5s ease, opacity 0.5s ease; }
 .visual-novel-screen { width: 100%; height: 100%; background-size: cover; background-position: center; position: relative; display: none; }
 @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
 .pulse { animation: pulse 1s infinite; }
