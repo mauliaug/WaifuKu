@@ -1258,13 +1258,13 @@ document.getElementById("partner-next").addEventListener("click", function () {
 
   // Play intro video after 5 seconds
   setTimeout(function () {
+    document.getElementById("welcome-screen").style.display = "none";
     document.querySelector(".welcome-video").style.display = "block";
     document.getElementById("intro-video").play();
   }, 5000);
 
   // Show smartphone interface after video
-  document.getElementById("intro-video").addEventListener("ended", function () {
-    document.getElementById("welcome-screen").style.display = "none";
+  document.getElementById("intro-video").addEventListener("ended", function ()  
     document.querySelector(".smartphone").style.display = "block";
     setTimeout(() => {
       document.querySelector(".smartphone").classList.add("active");
