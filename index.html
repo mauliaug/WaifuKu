@@ -43,12 +43,13 @@ body { display: flex; justify-content: center; align-items: center; min-height: 
 .smartphone:after { content: ''; display: block; width: 35px; height: 35px; position: absolute; left: 50%; bottom: -50px; transform: translateX(-50%); background: rgba(0, 0, 0, 0.1); border-radius: 50%; border: 2px solid #333; }
 .smartphone .camera { width: 10px; height: 10px; position: absolute; top: -35px; left: 120px; background: #333; border-radius: 50%; }
 .smartphone .speaker { width: 60px; height: 5px; position: absolute; top: -30px; left: 160px; background: #333; border-radius: 10px; }
-.smartphone .content { width: 100%; height: 100%; background-color: #f5f5f5; overflow: hidden; position: relative; }
+.smartphone .content { display: flex; flex-direction: column; width: 100%; height: 100%; background-color: #f5f5f5; overflow: hidden; position: relative; }
 .statusbar { height: 25px; background-color: #333; color: white; display: flex; justify-content: space-between; align-items: center; padding: 0 15px; font-size: 12px; }
 .statusbar .time { font-weight: bold; }
 .statusbar .info { display: flex; align-items: center; }
 .statusbar .info span { margin-left: 8px; }
 .user-info {
+  order: 1;
   background-color: #4a69bd;
   color: white;
   padding: 15px;
@@ -62,7 +63,7 @@ body { display: flex; justify-content: center; align-items: center; min-height: 
 .user-info .stats { display: flex; margin-top: 5px; }
 .user-info .stat { margin-right: 15px; font-size: 14px; }
 .user-info .stat i { margin-right: 5px; }
-.app-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px; }
+.app-grid { order: 2; display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px; }
 .app-button { display: flex; flex-direction: column; align-items: center; text-align: center; background-color: white; padding: 15px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s, box-shadow 0.2s; }
 .app-button:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
 .app-button i { font-size: 30px; margin-bottom: 10px; color: #4a69bd; }
