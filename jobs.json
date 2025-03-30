@@ -1,0 +1,562 @@
+[
+  {
+    "id": "job1",
+    "title": "Barista di Coffee Shop "The Daily Grind"",
+    "description": "Menjadi barista di coffee shop yang ramai dan populer, membuat berbagai jenis minuman kopi, melayani pelanggan, dan menjaga kebersihan coffee shop.",
+    "salary": 50000,
+    "energyCost": 10,
+    "skills": [
+      "Keterampilan Membuat Kopi",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Berpengalaman dalam membuat kopi",
+      "Ramah dan mudah bergaul",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job2",
+    "title": "Kasir di Toko Swalayan "Supermarket Sejahtera"",
+    "description": "Menjadi kasir di toko swalayan, melayani pelanggan, menghitung harga barang, dan menjaga keamanan kasir.",
+    "salary": 45000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Menghitung",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Teliti dan akurat dalam menghitung",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Mampu bekerja dalam tim"
+    ]
+  },
+  {
+    "id": "job3",
+    "title": "Waiter di Restoran "The Golden Spoon"",
+    "description": "Menjadi waiter di restoran mewah, melayani pelanggan, memesan makanan, dan menjaga kebersihan meja.",
+    "salary": 60000,
+    "energyCost": 12,
+    "skills": [
+      "Keterampilan Membawa Pesanan",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Mampu bekerja dengan cepat dan efisien",
+      "Sopan dan profesional dalam melayani pelanggan",
+      "Berpenampilan rapi dan bersih"
+    ]
+  },
+  {
+    "id": "job4",
+    "title": "Sales di Toko Pakaian "Fashion Paradise"",
+    "description": "Menjadi sales di toko pakaian, melayani pelanggan, memberi rekomendasi pakaian, dan menjaga kebersihan toko.",
+    "salary": 55000,
+    "energyCost": 10,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Memilih Pakaian"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang fashion",
+      "Ramah dan mudah bergaul",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job5",
+    "title": "Petugas Cleaning Service di Kantor "The Sky Tower"",
+    "description": "Menjadi petugas cleaning service di gedung kantor, membersihkan ruangan, kamar mandi, dan menjaga kebersihan area umum.",
+    "salary": 40000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Membersihkan",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam membersihkan",
+      "Teliti dan mampu bekerja cepat",
+      "Mampu bekerja mandiri dan dalam tim"
+    ]
+  },
+  {
+    "id": "job6",
+    "title": "Delivery Driver di "Pizza Express"",
+    "description": "Menjadi delivery driver di Pizza Express, mengantarkan pizza ke rumah pelanggan, dan menjaga keamanan pesanan.",
+    "salary": 48000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Berkendara",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Memiliki SIM dan kendaraan sendiri",
+      "Mampu mengendarai kendaraan dengan aman",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job7",
+    "title": "Tour Guide di "City Tour Adventure"",
+    "description": "Menjadi tour guide di City Tour Adventure, memandu wisatawan dalam perjalanan wisata, memberikan informasi, dan menjaga keamanan wisatawan.",
+    "salary": 70000,
+    "energyCost": 14,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Memberikan Informasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang kota dan sejarahnya",
+      "Ramah dan mudah bergaul",
+      "Berpenampilan rapi dan bersih"
+    ]
+  },
+  {
+    "id": "job8",
+    "title": "Petugas Toko di "The Bookworm"",
+    "description": "Menjadi petugas toko di toko buku, melayani pelanggan, mencari buku, dan menjaga kebersihan toko.",
+    "salary": 42000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Membaca",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang buku",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job9",
+    "title": "Freelance Writer di "Content Creator Hub"",
+    "description": "Menjadi freelance writer di Content Creator Hub, menulis artikel, blog post, dan konten lainnya, dan menjaga kualitas konten.",
+    "salary": 65000,
+    "energyCost": 12,
+    "skills": [
+      "Keterampilan Menulis",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam menulis",
+      "Mampu menulis dengan jelas dan menarik",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job10",
+    "title": "Petugas Customer Service di "Helpdesk Online"",
+    "description": "Menjadi petugas customer service di Helpdesk Online, melayani pelanggan, menjawab pertanyaan, dan menyelesaikan masalah.",
+    "salary": 45000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Menyelesaikan Masalah"
+    ],
+    "requirements": [
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Mampu berkomunikasi dengan jelas dan mudah dimengerti",
+      "Sabar dan teliti dalam menyelesaikan masalah"
+    ]
+  },
+  {
+    "id": "job11",
+    "title": "Petugas Resepsionis di "Hotel The Grand View"",
+    "description": "Menjadi petugas resepsionis di Hotel The Grand View, melayani tamu, menerima telepon, dan mengelola reservasi kamar.",
+    "salary": 52000,
+    "energyCost": 10,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Sopan dan ramah dalam melayani tamu",
+      "Mampu berkomunikasi dengan jelas dan mudah dimengerti",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job12",
+    "title": "Petugas Keamanan di "Mall Central Plaza"",
+    "description": "Menjadi petugas keamanan di Mall Central Plaza, menjaga keamanan mall, memeriksa tas, dan memandu pengunjung.",
+    "salary": 38000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam keamanan",
+      "Bertanggung jawab dan disiplin",
+      "Mampu bekerja mandiri dan dalam tim"
+    ]
+  },
+  {
+    "id": "job13",
+    "title": "Petugas Penjualan di "Toko Elektronik "Gadget Zone"",
+    "description": "Menjadi petugas penjualan di toko elektronik, melayani pelanggan, memberikan informasi produk, dan menjaga kebersihan toko.",
+    "salary": 50000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Memberikan Informasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang elektronik",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job14",
+    "title": "Guru Les Privat "Bahasa Inggris"",
+    "description": "Menjadi guru les privat bahasa Inggris, mengajarkan bahasa Inggris kepada siswa, dan membantu mereka meningkatkan kemampuan bahasa Inggris.",
+    "salary": 80000,
+    "energyCost": 16,
+    "skills": [
+      "Keterampilan Mengajar",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Berpengalaman dalam mengajar bahasa Inggris",
+      "Mampu berkomunikasi dengan baik",
+      "Sabar dan kreatif dalam mengajar"
+    ]
+  },
+  {
+    "id": "job15",
+    "title": "Petugas Catering di "Catering Service "Delicious Bites"",
+    "description": "Menjadi petugas catering, membantu menyiapkan makanan, mengemas makanan, dan mengantarkan makanan ke lokasi.",
+    "salary": 40000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Memasak",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam memasak dan menyiapkan makanan",
+      "Teliti dan mampu bekerja cepat",
+      "Mampu bekerja dalam tim"
+    ]
+  },
+  {
+    "id": "job16",
+    "title": "Petugas Kasir di "Bioskop "Cinema World"",
+    "description": "Menjadi petugas kasir di bioskop, melayani pelanggan, menjual tiket, dan mengelola penjualan makanan dan minuman.",
+    "salary": 45000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Menghitung",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Teliti dan akurat dalam menghitung",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Mampu bekerja dalam tim"
+    ]
+  },
+  {
+    "id": "job17",
+    "title": "Freelance Graphic Designer di "Studio Kreatif "Visual Arts"",
+    "description": "Menjadi freelance graphic designer di Studio Kreatif "Visual Arts", membuat desain grafis untuk website, media sosial, dan keperluan lainnya.",
+    "salary": 75000,
+    "energyCost": 14,
+    "skills": [
+      "Keterampilan Mendesain",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam desain grafis",
+      "Mampu mendesain dengan kreatif dan menarik",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job18",
+    "title": "Petugas Pencuci Piring di "Restoran "The Cozy Corner"",
+    "description": "Menjadi petugas pencuci piring di restoran, membersihkan peralatan makan dan dapur, dan menjaga kebersihan area dapur.",
+    "salary": 35000,
+    "energyCost": 4,
+    "skills": [
+      "Keterampilan Membersihkan",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam membersihkan",
+      "Teliti dan mampu bekerja cepat",
+      "Mampu bekerja mandiri dan dalam tim"
+    ]
+  },
+  {
+    "id": "job19",
+    "title": "Petugas Penjualan di "Toko Kosmetik "Beauty Paradise"",
+    "description": "Menjadi petugas penjualan di toko kosmetik, melayani pelanggan, memberikan informasi produk, dan menjaga kebersihan toko.",
+    "salary": 48000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Memberikan Informasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang kosmetik",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job20",
+    "title": "Petugas Penjualan di "Toko Buku "The Bookworm"",
+    "description": "Menjadi petugas penjualan di toko buku, melayani pelanggan, mencari buku, dan menjaga kebersihan toko.",
+    "salary": 42000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Membaca",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang buku",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job21",
+    "title": "Petugas Penjualan di "Toko Elektronik "Gadget Zone"",
+    "description": "Menjadi petugas penjualan di toko elektronik, melayani pelanggan, memberikan informasi produk, dan menjaga kebersihan toko.",
+    "salary": 50000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Memberikan Informasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang elektronik",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job22",
+    "title": "Guru Les Privat "Matematika"",
+    "description": "Menjadi guru les privat matematika, mengajarkan matematika kepada siswa, dan membantu mereka meningkatkan kemampuan matematika.",
+    "salary": 85000,
+    "energyCost": 16,
+    "skills": [
+      "Keterampilan Mengajar",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Berpengalaman dalam mengajar matematika",
+      "Mampu berkomunikasi dengan baik",
+      "Sabar dan kreatif dalam mengajar"
+    ]
+  },
+  {
+    "id": "job23",
+    "title": "Petugas Catering di "Catering Service "Delicious Bites"",
+    "description": "Menjadi petugas catering, membantu menyiapkan makanan, mengemas makanan, dan mengantarkan makanan ke lokasi.",
+    "salary": 40000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Memasak",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam memasak dan menyiapkan makanan",
+      "Teliti dan mampu bekerja cepat",
+      "Mampu bekerja dalam tim"
+    ]
+  },
+  {
+    "id": "job24",
+    "title": "Petugas Kasir di "Bioskop "Cinema World"",
+    "description": "Menjadi petugas kasir di bioskop, melayani pelanggan, menjual tiket, dan mengelola penjualan makanan dan minuman.",
+    "salary": 45000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Menghitung",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Teliti dan akurat dalam menghitung",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Mampu bekerja dalam tim"
+    ]
+  },
+  {
+    "id": "job25",
+    "title": "Freelance Web Developer di "Web Development Studio "Code Craft"",
+    "description": "Menjadi freelance web developer di Web Development Studio "Code Craft", mengembangkan website, dan memelihara website yang ada.",
+    "salary": 90000,
+    "energyCost": 18,
+    "skills": [
+      "Keterampilan Pengembangan Website",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam pengembangan website",
+      "Mampu mengembangkan website dengan baik",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job26",
+    "title": "Petugas Cleaning Service di Rumah Sakit "The Hope Hospital"",
+    "description": "Menjadi petugas cleaning service di rumah sakit, membersihkan ruangan, kamar mandi, dan menjaga kebersihan area umum.",
+    "salary": 38000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Membersihkan",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam membersihkan",
+      "Teliti dan mampu bekerja cepat",
+      "Mampu bekerja mandiri dan dalam tim"
+    ]
+  },
+  {
+    "id": "job27",
+    "title": "Petugas Penjualan di "Toko Perhiasan "Diamond Star"",
+    "description": "Menjadi petugas penjualan di toko perhiasan, melayani pelanggan, memberikan informasi produk, dan menjaga kebersihan toko.",
+    "salary": 60000,
+    "energyCost": 10,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Memberikan Informasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang perhiasan",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job28",
+    "title": "Guru Les Privat "Bahasa Jepang"",
+    "description": "Menjadi guru les privat bahasa Jepang, mengajarkan bahasa Jepang kepada siswa, dan membantu mereka meningkatkan kemampuan bahasa Jepang.",
+    "salary": 95000,
+    "energyCost": 18,
+    "skills": [
+      "Keterampilan Mengajar",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Berpengalaman dalam mengajar bahasa Jepang",
+      "Mampu berkomunikasi dengan baik",
+      "Sabar dan kreatif dalam mengajar"
+    ]
+  },
+  {
+    "id": "job29",
+    "title": "Petugas Catering di "Catering Service "Delicious Bites"",
+    "description": "Menjadi petugas catering, membantu menyiapkan makanan, mengemas makanan, dan mengantarkan makanan ke lokasi.",
+    "salary": 40000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Memasak",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam memasak dan menyiapkan makanan",
+      "Teliti dan mampu bekerja cepat",
+      "Mampu bekerja dalam tim"
+    ]
+  },
+  {
+    "id": "job30",
+    "title": "Petugas Kasir di "Toko Elektronik "Gadget Zone"",
+    "description": "Menjadi petugas penjualan di toko elektronik, melayani pelanggan, memberikan informasi produk, dan menjaga kebersihan toko.",
+    "salary": 50000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Memberikan Informasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang elektronik",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job31",
+    "title": "Freelance Translator "Bahasa Korea"",
+    "description": "Menjadi freelance translator bahasa Korea, menerjemahkan dokumen, teks, dan konten lainnya, dan menjaga kualitas terjemahan.",
+    "salary": 85000,
+    "energyCost": 16,
+    "skills": [
+      "Keterampilan Menerjemahkan",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam menerjemahkan bahasa Korea",
+      "Mampu menerjemahkan dengan akurat dan jelas",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job32",
+    "title": "Petugas Cleaning Service di "Hotel The Grand View"",
+    "description": "Menjadi petugas cleaning service di hotel, membersihkan kamar, kamar mandi, dan menjaga kebersihan area umum.",
+    "salary": 38000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Membersihkan",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam membersihkan",
+      "Teliti dan mampu bekerja cepat",
+      "Mampu bekerja mandiri dan dalam tim"
+    ]
+  },
+  {
+    "id": "job33",
+    "title": "Petugas Penjualan di "Toko Sepeda "Bicycle World"",
+    "description": "Menjadi petugas penjualan di toko sepeda, melayani pelanggan, memberikan informasi produk, dan menjaga kebersihan toko.",
+    "salary": 48000,
+    "energyCost": 8,
+    "skills": [
+      "Keterampilan Berkomunikasi",
+      "Keterampilan Memberikan Informasi"
+    ],
+    "requirements": [
+      "Berpengetahuan tentang sepeda",
+      "Sopan dan ramah dalam melayani pelanggan",
+      "Teliti dan mampu bekerja cepat"
+    ]
+  },
+  {
+    "id": "job34",
+    "title": "Guru Les Privat "Bahasa Mandarin"",
+    "description": "Menjadi guru les privat bahasa Mandarin, mengajarkan bahasa Mandarin kepada siswa, dan membantu mereka meningkatkan kemampuan bahasa Mandarin.",
+    "salary": 100000,
+    "energyCost": 20,
+    "skills": [
+      "Keterampilan Mengajar",
+      "Keterampilan Berkomunikasi"
+    ],
+    "requirements": [
+      "Berpengalaman dalam mengajar bahasa Mandarin",
+      "Mampu berkomunikasi dengan baik",
+      "Sabar dan kreatif dalam mengajar"
+    ]
+  },
+  {
+    "id": "job35",
+    "title": "Petugas Catering di "Catering Service "Delicious Bites"",
+    "description": "Menjadi petugas catering, membantu menyiapkan makanan, mengemas makanan, dan mengantarkan makanan ke lokasi.",
+    "salary": 40000,
+    "energyCost": 6,
+    "skills": [
+      "Keterampilan Memasak",
+      "Keterampilan Mengatur Waktu"
+    ],
+    "requirements": [
+      "Berpengalaman dalam memasak dan menyiapkan makanan",
+      "Teliti dan mampu bekerja cepat",
+      "Mampu bekerja dalam tim"
+    ]
+  }
+]

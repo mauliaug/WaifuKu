@@ -1,0 +1,152 @@
+{
+  "conversations": {
+    "contact1": { // Percakapan dengan Ahmad
+      "conversations": [
+        {
+          "speaker": "Ahmad",
+          "text": "Hai! Kamu lagi sibuk ngapain?",
+          "image": "/images/characters/ahmad.png", // Path ke gambar Ahmad
+          "choices": [
+            {
+              "id": "choice1",
+              "text": "Lagi belajar nih, ujian minggu depan!",
+              "nextConversation": 2,
+              "effect": { "happy": -1, "sad": 1 },
+              "addNote": "note1" // Panggil catatan dengan ID 'note1'
+            },
+            {
+              "id": "choice2",
+              "text": "Lagi kerja part-time, butuh duit buat beli buku.",
+              "nextConversation": 3,
+              "effect": { "happy": -1, "sad": 1 },
+              "addNote": "note2" // Panggil catatan dengan ID 'note2'
+            }
+          ]
+        },
+        {
+          "speaker": "Kamu",
+          "text": "Iya, lagi belajar buat ujian. Semoga lancar ya!"
+        },
+        {
+          "speaker": "Ahmad",
+          "text": "Thanks!  Kamu lagi belajar mata kuliah apa?"
+        },
+        {
+          "speaker": "Kamu",
+          "text": "Lagi belajar Kalkulus, susah banget!",
+          "choices": [
+            {
+              "id": "choice1",
+              "text": "Kamu bisa bantu aku belajar Kalkulus?",
+              "nextConversation": 5,
+              "effect": { "happy": 2, "sad": -1 },
+              "addNote": "note3" // Panggil catatan dengan ID 'note3'
+            },
+            {
+              "id": "choice2",
+              "text": "Aku harus belajar sendiri deh, lagi banyak tugas.",
+              "nextConversation": 6,
+              "effect": { "happy": -1, "sad": 1 },
+              "changeEnergy": -5
+            }
+          ]
+        },
+        // ... (Percakapan lainnya) ...
+      ]
+    },
+    "contact2": { // Percakapan dengan Anya
+      "conversations": [
+        {
+          "speaker": "Anya",
+          "text": "Hai!  Kamu lagi ngapain?",
+          "image": "/images/characters/anya.png", // Path ke gambar Anya
+          "choices": [
+            {
+              "id": "choice1",
+              "text": "Lagi jalan-jalan di taman kota.",
+              "nextConversation": 2,
+              "effect": { "happy": 1, "sad": -1 },
+              "addNote": "note4" // Panggil catatan dengan ID 'note4'
+            },
+            {
+              "id": "choice2",
+              "text": "Lagi kerja part-time di kafe.",
+              "nextConversation": 3,
+              "effect": { "happy": -1, "sad": 1 },
+              "changeEnergy": -5
+            }
+          ]
+        },
+        {
+          "speaker": "Kamu",
+          "text": "Tamannya bagus ya?  Cuacanya juga mendukung."
+        },
+        {
+          "speaker": "Anya",
+          "text": "Iya, pemandangannya indah banget.  Mau ikut aku jalan-jalan?"
+        },
+        // ... (Percakapan lainnya) ...
+      ]
+    },
+    "contact3": { // Percakapan dengan Rina
+      "conversations": [
+        {
+          "speaker": "Rina",
+          "text": "Hai!  Mau ikut aku ke mall?",
+          "image": "/images/characters/rina.png", // Path ke gambar Rina
+          "choices": [
+            {
+              "id": "choice1",
+              "text": "Aku lagi sibuk nih.",
+              "nextConversation": 2,
+              "effect": { "happy": -1, "sad": 1 },
+              "addNote": "note5" // Panggil catatan dengan ID 'note5'
+            },
+            {
+              "id": "choice2",
+              "text": "Ayok, aku mau ikut!",
+              "nextConversation": 3,
+              "effect": { "happy": 2, "sad": -1 },
+              "openEpisode": "episode_mall_trip" // Membuka episode dengan ID 'episode_mall_trip'
+            }
+          ]
+        },
+        {
+          "speaker": "Kamu",
+          "text": "Maaf ya, aku lagi banyak tugas. Lain kali aja."
+        },
+        {
+          "speaker": "Rina",
+          "text": "Oke deh, kapan-kapan kita jalan-jalan lagi."
+        },
+        // ... (Percakapan lainnya) ...
+      ]
+    },
+    "contact4": { // Percakapan dengan Alex
+      "conversations": [
+        {
+          "speaker": "Alex",
+          "text": "Hei, kamu!  Kamu tahu tentang proyek kuliah yang baru?"
+          "image": "/images/characters/alex.png", // Path ke gambar Alex
+          "choices": [
+            {
+              "id": "choice1",
+              "text": "Tahu, udah baca pengumumannya.",
+              "nextConversation": 2,
+              "effect": { "happy": 1, "sad": -1 },
+              "addNote": "note6" // Panggil catatan dengan ID 'note6'
+            },
+            {
+              "id": "choice2",
+              "text": "Belum tahu, ceritain dong.",
+              "nextConversation": 3,
+              "effect": { "happy": -1, "sad": 1 },
+              "changeEnergy": -5
+            }
+          ]
+        },
+        // ... (Percakapan lainnya) ...
+      ]
+    }
+  }
+}

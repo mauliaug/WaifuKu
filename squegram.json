@@ -1,0 +1,142 @@
+[
+  {
+    "id": "post_01",
+    "username": "Anya",
+    "caption": "Hari ini jalan-jalan di taman kota, indah banget!",
+    "likes": 123,
+    "image": "/images/squegram/post_01.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_02",
+    "username": "Ahmad",
+    "caption": "Akhirnya selesai nugas!  Sekarang waktunya nge-game!",
+    "likes": 85,
+    "image": "/images/squegram/post_02.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_03",
+    "username": "Rina",
+    "caption": "Lagi belajar bikin kue, semoga berhasil!",
+    "likes": 150,
+    "image": "/images/squegram/post_03.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_04",
+    "username": "Anya",
+    "caption": "Nonton film bareng temen-temen, seru banget!",
+    "likes": 200,
+    "image": "/images/squegram/post_04.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_05",
+    "username": "Ahmad",
+    "caption": "Ketemu kucing lucu di jalan, gemes banget!",
+    "likes": 180,
+    "image": "/images/squegram/post_05.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_06",
+    "username": "Rina",
+    "caption": "Lagi nyobain resep baru, rasanya enak banget!",
+    "likes": 175,
+    "image": "/images/squegram/post_06.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_07",
+    "username": "Anya",
+    "caption": "Nge-date sama pacar, romantis banget!",
+    "likes": 250,
+    "image": "/images/squegram/post_07.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_08",
+    "username": "Ahmad",
+    "caption": "Lagi ngerjain proyek kuliah, semoga cepet selesai!",
+    "likes": 90,
+    "image": "/images/squegram/post_08.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_09",
+    "username": "Rina",
+    "caption": "Lagi liburan ke pantai, seger banget!",
+    "likes": 220,
+    "image": "/images/squegram/post_09.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_10",
+    "username": "Anya",
+    "caption": "Nonton konser musik, keren banget!",
+    "likes": 300,
+    "image": "/images/squegram/post_10.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_11",
+    "username": "Ahmad",
+    "caption": "Lagi main basket sama temen-temen, seru banget!",
+    "likes": 110,
+    "image": "/images/squegram/post_11.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_12",
+    "username": "Rina",
+    "caption": "Lagi jalan-jalan di mall, banyak diskon!",
+    "likes": 140,
+    "image": "/images/squegram/post_12.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_13",
+    "username": "Anya",
+    "caption": "Lagi belajar masak, semoga hasilnya enak!",
+    "likes": 160,
+    "image": "/images/squegram/post_13.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_14",
+    "username": "Ahmad",
+    "caption": "Lagi ngerjain tugas kelompok, semoga cepet selesai!",
+    "likes": 75,
+    "image": "/images/squegram/post_14.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_15",
+    "username": "Rina",
+    "caption": "Lagi nonton drama korea, seru banget!",
+    "likes": 130,
+    "image": "/images/squegram/post_15.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_16",
+    "username": "Anya",
+    "caption": "Lagi ngumpul bareng keluarga, happy banget!",
+    "likes": 280,
+    "image": "/images/squegram/post_16.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_17",
+    "username": "Ahmad",
+    "caption": "Lagi nge-gym, semangat!",
+    "likes": 100,
+    "image": "/images/squegram/post_17.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_18",
+    "username": "Rina",
+    "caption": "Lagi jalan-jalan di taman, indah banget!",
+    "likes": 190,
+    "image": "/images/squegram/post_18.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_19",
+    "username": "Anya",
+    "caption": "Lagi nge-date sama pacar, romantis banget!",
+    "likes": 260,
+    "image": "/images/squegram/post_19.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "post_20",
+    "username": "Ahmad",
+    "caption": "Lagi ngerjain tugas kuliah, semoga cepet selesai!",
+    "likes": 80,
+    "image": "/images/squegram/post_20.jpg" // Ganti dengan path gambar yang benar
+  }
+]

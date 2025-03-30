@@ -1,0 +1,359 @@
+[
+  {
+    "id": "contact1",
+    "name": "Ahmad",
+    "avatar": "/api/placeholder/50/50?text=Ahmad",
+    "age": 24,
+    "gender": "male",
+    "description": "Teman dekat pemain, selalu mendukung dan memberikan nasihat.",
+    "mood": {
+      "happy": 0, 
+      "sad": 0,
+      "angry": 0, 
+      "jealous": 0 
+    }
+  },
+  {
+    "id": "contact2",
+    "name": "[Nama Pacar Pemain]", 
+    "avatar": "/api/placeholder/50/50?text=[Nama Pacar Pemain]", 
+    "age": 23,
+    "gender": "female",
+    "description": "Pacar pemain, menjalin hubungan romantis dan saling mencintai.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact3",
+    "name": "Vika",
+    "avatar": "/api/placeholder/50/50?text=Vika",
+    "age": 22,
+    "gender": "female",
+    "description": "Teman dekat pacar pemain, suka bergosip dan bercerita.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact4",
+    "name": "Dina",
+    "avatar": "/api/placeholder/50/50?text=Dina",
+    "age": 23,
+    "gender": "female",
+    "description": "Teman dekat pacar pemain, suka berpetualang dan mencoba hal baru.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact5",
+    "name": "Maulana",
+    "avatar": "/api/placeholder/50/50?text=Maulana",
+    "age": 25,
+    "gender": "male",
+    "description": "Pasangan Vika, pekerja keras dan bertanggung jawab.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact6",
+    "name": "Hilmi",
+    "avatar": "/api/placeholder/50/50?text=Hilmi",
+    "age": 24,
+    "gender": "male",
+    "description": "Pasangan Dina, suka bercanda dan humoris.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact7",
+    "name": "Nadif",
+    "avatar": "/api/placeholder/50/50?text=Nadif",
+    "age": 26,
+    "gender": "male",
+    "description": "Pasangan gelap pacar pemain, misterius dan penuh teka-teki.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact8",
+    "name": "Torik",
+    "avatar": "/api/placeholder/50/50?text=Torik",
+    "age": 27,
+    "gender": "male",
+    "description": "Pasangan gelap pacar pemain, suka berpesta dan hura-hura.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact9",
+    "name": "Agus",
+    "avatar": "/api/placeholder/50/50?text=Agus",
+    "age": 25,
+    "gender": "male",
+    "description": "Pasangan gelap pacar pemain, suka berpetualang dan menantang adrenalin.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact10",
+    "name": "Pizza Express",
+    "avatar": "/api/placeholder/50/50?text=Pizza Express",
+    "age": 20,
+    "gender": "male",
+    "description": "Pengantar pizza, cepat dan ramah.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact11",
+    "name": "Tiara",
+    "avatar": "/api/placeholder/50/50?text=Tiara",
+    "age": 21,
+    "gender": "female",
+    "description": "Petugas cleaning service, pekerja keras dan teliti.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact12",
+    "name": "Anto",
+    "avatar": "/api/placeholder/50/50?text=Anto",
+    "age": 23,
+    "gender": "male",
+    "description": "Orang random, suka ngobrol dan bercerita.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact13",
+    "name": "Zaki",
+    "avatar": "/api/placeholder/50/50?text=Zaki",
+    "age": 24,
+    "gender": "male",
+    "description": "Orang random, suka main game dan teknologi.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact14",
+    "name": "Randi",
+    "avatar": "/api/placeholder/50/50?text=Randi",
+    "age": 22,
+    "gender": "male",
+    "description": "Orang random, suka bermusik dan bernyanyi.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact15",
+    "name": "Melki",
+    "avatar": "/api/placeholder/50/50?text=Melki",
+    "age": 18,
+    "gender": "male",
+    "description": "Adik pemain, suka bermain dan bercanda.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact16",
+    "name": "Echa",
+    "avatar": "/api/placeholder/50/50?text=Echa",
+    "age": 26,
+    "gender": "female",
+    "description": "Kakak pemain, suka berpakaian modis dan hangout.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact17",
+    "name": "Fatlur",
+    "avatar": "/api/placeholder/50/50?text=Fatlur",
+    "age": 20,
+    "gender": "male",
+    "description": "Pasangan Melki, suka berolahraga dan berpetualang.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact18",
+    "name": "Ari",
+    "avatar": "/api/placeholder/50/50?text=Ari",
+    "age": 19,
+    "gender": "male",
+    "description": "Orang yang mendekati Melki, suka bermusik dan bernyanyi.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact19",
+    "name": "Aldo",
+    "avatar": "/api/placeholder/50/50?text=Aldo",
+    "age": 20,
+    "gender": "male",
+    "description": "Orang yang mendekati Melki, suka main game dan teknologi.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact20",
+    "name": "Wahyu",
+    "avatar": "/api/placeholder/50/50?text=Wahyu",
+    "age": 27,
+    "gender": "male",
+    "description": "Pasangan Echa, suka memasak dan berbisnis.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact21",
+    "name": "Risman",
+    "avatar": "/api/placeholder/50/50?text=Risman",
+    "age": 25,
+    "gender": "male",
+    "description": "Orang yang mendekati Echa, suka bermusik dan bernyanyi.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact22",
+    "name": "Gilang",
+    "avatar": "/api/placeholder/50/50?text=Gilang",
+    "age": 26,
+    "gender": "male",
+    "description": "Orang yang mendekati Echa, suka main game dan teknologi.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact23",
+    "name": "Pak Yusuf",
+    "avatar": "/api/placeholder/50/50?text=Pak Yusuf",
+    "age": 50,
+    "gender": "male",
+    "description": "Ayah pemain, suka bercerita dan memberikan nasihat.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "contact24",
+    "name": "Ibuk Neli",
+    "avatar": "/api/placeholder/50/50?text=Ibuk Neli",
+    "age": 48,
+    "gender": "female",
+    "description": "Ibu pemain, suka memasak dan merawat keluarga.",
+    "mood": {
+      "happy": 0,
+      "sad": 0,
+      "angry": 0,
+      "jealous": 0
+    }
+  },
+  {
+    "id": "group1",
+    "name": "Keluarga",
+    "contacts": [
+      "contact23",
+      "contact24",
+      "[Nama Pacar Pemain]",
+      "contact15",
+      "contact16"
+    ]
+  },
+  {
+    "id": "group2",
+    "name": "Kita",
+    "contacts": [
+      "[Nama Pacar Pemain]",
+      "contact1",
+      "contact3",
+      "contact4"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "episode_01",
+    "title": "Pertemuan Tak Terduga",
+    "description": "Kamu bertemu dengan seorang gadis misterius di taman kota.",
+    "conversationId": "conversation_01", // Referensi ke percakapan di `conversations.json`
+    "conversationStartIndex": 1 // Index dialog awal percakapan
+  },
+  {
+    "id": "episode_02",
+    "title": "Pekerjaan Part-Time",
+    "description": "Kamu mulai bekerja part-time di sebuah kafe untuk menambah uang.",
+    "eventId": "event_part_time_job" // Referensi ke event di `events.json`
+  }
+  // ... (Episode lainnya) ...
+]

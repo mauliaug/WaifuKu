@@ -1,0 +1,137 @@
+[
+  {
+    "id": "event_part_time_job",
+    "name": "Pekerjaan Part-Time",
+    "description": "Kamu mulai bekerja part-time di sebuah kafe untuk menambah uang.",
+    "effect": {
+      "money": 50000, // Menambahkan uang
+      "energy": -10 // Mengurangi energi
+    }
+  },
+  {
+    "id": "event_first_date",
+    "name": "Kencan Pertama",
+    "description": "Kamu dan Anya akhirnya memutuskan untuk berkencan.",
+    "effect": {
+      "happiness": 20 // Meningkatkan kebahagiaan
+    },
+    "addNote": "note_first_date" // Menambahkan catatan dengan ID 'note_first_date'
+  },
+  {
+    "id": "event_workplace_issue",
+    "name": "Masalah di Tempat Kerja",
+    "description": "Kamu menghadapi masalah dengan rekan kerjamu di kafe.",
+    "effect": {
+      "happiness": -15, // Mengurangi kebahagiaan
+      "energy": -5 // Mengurangi energi
+    },
+    "changeEnergy": -5, // Mengurangi energi tambahan
+    "changeMoney": -10000 // Mengurangi uang
+  },
+  {
+    "id": "event_beautiful_night",
+    "name": "Malam yang Indah",
+    "description": "Kamu menghabiskan malam yang indah bersama Anya.",
+    "effect": {
+      "happiness": 25, // Meningkatkan kebahagiaan
+      "energy": -10 // Mengurangi energi
+    },
+    "changeEnergy": -10, // Mengurangi energi tambahan
+    "changeMoney": -20000 // Mengurangi uang
+  },
+  {
+    "id": "event_happy_ending",
+    "name": "Bersama Selamanya",
+    "description": "Kamu dan Anya akhirnya bersama selamanya.",
+    "effect": {
+      "happiness": 50 // Meningkatkan kebahagiaan
+    },
+    "unlockEpisode": "episode_special_ending" // Membuka episode dengan ID 'episode_special_ending'
+  },
+  {
+    "id": "event_sad_ending",
+    "name": "Perpisahan",
+    "description": "Kamu dan Anya berpisah karena perbedaan.",
+    "effect": {
+      "happiness": -30 // Mengurangi kebahagiaan
+    },
+    "addNote": "note_sad_ending" // Menambahkan catatan dengan ID 'note_sad_ending'
+  },
+  {
+    "id": "event_got_new_phone",
+    "name": "Telepon Baru",
+    "description": "Kamu mendapatkan telepon baru dari orang tuamu.",
+    "effect": {
+      "happiness": 10 // Meningkatkan kebahagiaan
+    },
+    "addNote": "note_new_phone" // Menambahkan catatan dengan ID 'note_new_phone'
+  },
+  {
+    "id": "event_found_money",
+    "name": "Keberuntungan",
+    "description": "Kamu menemukan uang di jalan.",
+    "effect": {
+      "money": 10000 // Menambahkan uang
+    }
+  },
+  {
+    "id": "event_sick",
+    "name": "Sakit",
+    "description": "Kamu jatuh sakit dan tidak bisa bekerja.",
+    "effect": {
+      "energy": -20, // Mengurangi energi
+      "happiness": -10 // Mengurangi kebahagiaan
+    },
+    "changeEnergy": -20, // Mengurangi energi tambahan
+    "changeMoney": -5000 // Mengurangi uang
+  },
+  {
+    "id": "event_won_lottery",
+    "name": "Menang Lotre",
+    "description": "Kamu memenangkan lotre!",
+    "effect": {
+      "money": 1000000 // Menambahkan uang
+    },
+    "addNote": "note_won_lottery" // Menambahkan catatan dengan ID 'note_won_lottery'
+  },
+  {
+    "id": "event_lost_wallet",
+    "name": "Kehilangan Dompet",
+    "description": "Kamu kehilangan dompetmu.",
+    "effect": {
+      "money": -50000, // Mengurangi uang
+      "happiness": -15 // Mengurangi kebahagiaan
+    },
+    "changeEnergy": -5 // Mengurangi energi tambahan
+  },
+  {
+    "id": "event_graduation",
+    "name": "Wisuda",
+    "description": "Kamu lulus kuliah!",
+    "effect": {
+      "happiness": 30 // Meningkatkan kebahagiaan
+    },
+    "addNote": "note_graduation" // Menambahkan catatan dengan ID 'note_graduation'
+  },
+  {
+    "id": "event_new_job",
+    "name": "Pekerjaan Baru",
+    "description": "Kamu mendapatkan pekerjaan baru dengan gaji yang lebih tinggi.",
+    "effect": {
+      "money": 100000, // Menambahkan uang
+      "energy": -10 // Mengurangi energi
+    },
+    "addNote": "note_new_job" // Menambahkan catatan dengan ID 'note_new_job'
+  },
+  {
+    "id": "event_travel",
+    "name": "Perjalanan",
+    "description": "Kamu pergi berlibur ke tempat yang indah.",
+    "effect": {
+      "happiness": 20, // Meningkatkan kebahagiaan
+      "energy": -15 // Mengurangi energi
+    },
+    "changeEnergy": -15, // Mengurangi energi tambahan
+    "changeMoney": -30000 // Mengurangi uang
+  }
+]

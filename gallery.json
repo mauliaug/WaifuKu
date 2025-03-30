@@ -1,0 +1,122 @@
+[
+  {
+    "id": "image_01",
+    "title": "Pemandangan Taman Kota",
+    "description": "Pemandangan taman kota yang indah di sore hari, dengan langit berwarna jingga.",
+    "image": "/images/gallery/image_01.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_02",
+    "title": "Senja di Pantai",
+    "description": "Matahari terbenam di atas lautan, menciptakan warna-warna yang menakjubkan.",
+    "image": "/images/gallery/image_02.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_03",
+    "title": "Kucing Lucu",
+    "description": "Seekor kucing lucu sedang tidur di atas sofa, terlihat sangat menggemaskan.",
+    "image": "/images/gallery/image_03.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_04",
+    "title": "Bunga Mekar",
+    "description": "Bunga-bunga yang berwarna-warni sedang mekar di taman, terlihat sangat indah.",
+    "image": "/images/gallery/image_04.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_05",
+    "title": "Langit Berbintang",
+    "description": "Langit malam yang dihiasi bintang-bintang yang berkilauan.",
+    "image": "/images/gallery/image_05.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_06",
+    "title": "Pemandangan Gunung",
+    "description": "Gunung-gunung yang menjulang tinggi dengan puncak yang tertutup awan.",
+    "image": "/images/gallery/image_06.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_07",
+    "title": "Air Terjun",
+    "description": "Air terjun yang menawan dengan air yang mengalir deras.",
+    "image": "/images/gallery/image_07.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_08",
+    "title": "Cafe Cozy",
+    "description": "Cafe yang nyaman dengan suasana yang hangat dan dekorasi yang unik.",
+    "image": "/images/gallery/image_08.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_09",
+    "title": "Kucing Main",
+    "description": "Kucing sedang bermain dengan benang, terlihat sangat lucu dan energik.",
+    "image": "/images/gallery/image_09.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_10",
+    "title": "Pemandangan Kota",
+    "description": "Pemandangan kota yang ramai di malam hari, dengan lampu-lampu yang berkelap-kelip.",
+    "image": "/images/gallery/image_10.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_11",
+    "title": "Bintang Jatuh",
+    "description": "Sebuah bintang jatuh melintas di langit malam, terlihat sangat indah dan romantis.",
+    "image": "/images/gallery/image_11.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_12",
+    "title": "Pemandangan Hutan",
+    "description": "Hutan yang rimbun dengan pohon-pohon yang menjulang tinggi.",
+    "image": "/images/gallery/image_12.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_13",
+    "title": "Pulau Tropis",
+    "description": "Pulau tropis dengan pasir putih dan air laut yang biru.",
+    "image": "/images/gallery/image_13.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_14",
+    "title": "Bunga Tulip",
+    "description": "Kebun bunga tulip yang indah dengan berbagai warna.",
+    "image": "/images/gallery/image_14.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_15",
+    "title": "Pemandangan Pegunungan",
+    "description": "Pemandangan pegunungan yang menawan dengan puncak yang tertutup salju.",
+    "image": "/images/gallery/image_15.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_16",
+    "title": "Jembatan",
+    "description": "Jembatan yang megah melintasi sungai, terlihat sangat indah.",
+    "image": "/images/gallery/image_16.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_17",
+    "title": "Kereta Api",
+    "description": "Kereta api yang melaju cepat di tengah alam, terlihat sangat menarik.",
+    "image": "/images/gallery/image_17.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_18",
+    "title": "Pemandangan Pedesaan",
+    "description": "Pemandangan pedesaan yang tenang dengan sawah dan rumah-rumah tradisional.",
+    "image": "/images/gallery/image_18.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_19",
+    "title": "Senja di Kota",
+    "description": "Matahari terbenam di atas kota, menciptakan pemandangan yang menakjubkan.",
+    "image": "/images/gallery/image_19.jpg" // Ganti dengan path gambar yang benar
+  },
+  {
+    "id": "image_20",
+    "title": "Pemandangan Danau",
+    "description": "Danau yang tenang dengan air yang jernih dan pepohonan di sekitarnya.",
+    "image": "/images/gallery/image_20.jpg" // Ganti dengan path gambar yang benar
+  }
+]
