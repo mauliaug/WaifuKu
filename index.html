@@ -48,7 +48,16 @@ body { display: flex; justify-content: center; align-items: center; min-height: 
 .statusbar .time { font-weight: bold; }
 .statusbar .info { display: flex; align-items: center; }
 .statusbar .info span { margin-left: 8px; }
-.user-info { background-color: #4a69bd; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+.user-info {
+  background-color: #4a69bd;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-direction: column; /* Ini yang ditambahkan */
+}
 .user-info .left { display: flex; flex-direction: column; }
 .user-info .name { font-size: 18px; font-weight: bold; }
 .user-info .stats { display: flex; margin-top: 5px; }
